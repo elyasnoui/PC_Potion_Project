@@ -1,5 +1,5 @@
 <?php
-    $db = new mysqli('fareham.city.ac.uk', 'adbb937', '190053026', 'adbb937');
+    $db = new mysqli(...);
     
     if ($db->connect_error) {
         printf("Connection failed: %s/n" . $db->connect_error);
